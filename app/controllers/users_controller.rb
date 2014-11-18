@@ -8,6 +8,6 @@ class UsersController < ApplicationController
     @user[:username] = params[:username]
     @user[:location] = "location"
     @user[:about] = "about"
-    @user["about"] = "about2"
+    @user["about"] = "about23"
   end
 end
